@@ -35,3 +35,6 @@ h1 {
 p {
   font-family: inherit;
 }
+#About me {
+  overflow: scroll;
+}
