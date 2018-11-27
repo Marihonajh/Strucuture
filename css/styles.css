@@ -18,11 +18,22 @@ body {
 #intro {position: absolute;
 }
 * {
-   background-color: grey;
+   background-color: #e0e0e0;
  }
  nav {
    margin: 1px auto;
    margin-right: 0;
+ }
+ nav>ul {
+   display: inline;
+   text-align: right;
+   ul > li >a {
+     text-transform: uppercase;
+     padding: 2px;
+     text-decoration: none;
+     color: #bbb
+     font-family:fantasy;
+   }
  }
 h1 {
   color: white;
