@@ -1,44 +1,62 @@
-body {
-  font-family: fantasy;
+.container {
+   background-color: rgba(121, 90, 121, 0.6);
 }
-* {
-   background-color: #e0e0e0;
- }
 
-h1 {
-  color: white;
-  text-align: center;
-}
-p {
-  font-family: inherit;
-}
-#About me {
-  overflow: scroll;
-}
-correct {
-float : right;
-}
-main {
-  display: flex;
-  color: blue;
-  border: 2px solid black;
-  margin: auto;
-}
-#profile {
-  float:left;
-}
-nav ul li {
-  display: inline-block;
-}
 nav ul {
-  text-align: right;
+ text-align: right;
 }
-#Home {
-  padding: 150px;
+nav li {
+ display: inline-block;
 }
-p {
-  padding: 2px;
-  font-size:18px
-  font-family:sans-serif;
-  font-style: normal;
+nav ul li a {
+   padding: 25px;
+   margin-right: 0;
+   text-transform: uppercase;
+   text-decoration: none;
+   display: inline;
+   color:grey;
+}
+nav>ul>li>a:hover {
+   border-radius: 20px;
+   background: rgba(221, 109, 35, 0.678);
+   color: rgba(0, 35, 122, 0.7);
+}
+nav {
+ position: fixed;
+ top: 0;
+ right: 0;
+ margin-right: 5%;
+
+}
+#home {
+ padding-top: 15%;
+ padding-bottom: 17.5%;
+}
+#home P {
+ position: relative;
+ bottom: 15px;
+ left: 64%;
+ color:#F0F8FF;
+ font-weight: bold;
+ font-family: monospace;
+ font-size: 17px;
+}
+
+#about {
+ background-color: rgba(255, 255, 255, 0.7);
+ padding-bottom: 102px;
+}
+
+}
+#about p {
+ padding: 5px;
+ position: relative;
+ left: 20px;
+ margin-right: 10px;
+ font-family: sans-serif;
+ font-size: 17px;
+}
+#projects {
+ color: white;
+ background-color: rgba(0, 0, 0, 0.9);
 }
