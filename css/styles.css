@@ -1,5 +1,6 @@
 .container {
    background-color: rgba(121, 90, 121, 0.6);
+   background-image: url(images/background.jpg);
 }
 
 nav ul {
@@ -29,17 +30,18 @@ nav {
 
 }
 #home {
- padding-top: 15%;
- padding-bottom: 17.5%;
+ padding-top: 10%;
+ padding-bottom: 8%;
 }
 #home P {
  position: relative;
  bottom: 18px;
- left: 69%;
- color:#F0F8FF;
+ left: 50px;
+ color:#bbb;
  font-weight: bold;
- font-family: monospace;
+ font-family: fantasy;
  font-size: 17px;
+ margin-right: 12px;
 }
 
 #about {
