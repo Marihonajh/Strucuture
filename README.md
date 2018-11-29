@@ -1,12 +1,11 @@
-#Mackenzie
-###Description
-it about my myself and the things i like doingits latest version was initated on 24th novenber 2018.
-its enticed of projects i undertookm while studing on how to be a proficient developer.
-#contributors
-joel muhonjah
-## Technologies Used
-html
-css
-##Support and contacts
-+24586201841
-facebook:jarhelldeteacher.
+#Strucuture
+my project is about
+oneself portfolio.
+#Authour
+Joel Mackenzie
+#the device i Used:
+ CSS3 & html5
+#Aim
+ to insire myself plan to venture the universe.
+#lincence copy right
+mit
